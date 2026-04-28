@@ -1,0 +1,4 @@
+ADL: ORDER_SERVICE_RULE
+DEFINE COMPONENT OrderService
+DEFINE COMPONENT InventoryService
+ASSERT (OrderService has NO DEPENDENCY on InventoryService)

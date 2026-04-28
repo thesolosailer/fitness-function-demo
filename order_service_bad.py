@@ -1,4 +1,4 @@
-import inventory_service
+import inventory_service   # VIOLATION
 
 def place_order(item_id, quantity):
     inventory_service.reserve_stock(item_id, quantity)
